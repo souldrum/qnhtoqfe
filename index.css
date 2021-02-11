@@ -5,10 +5,11 @@ body {
   background-size: cover;
 }
 table {
-  padding: 10px 50px 20px 30px;
-  width: auto;
+  padding: 10px 50px 20px 35px;
+  width: 823;
   height: auto;
-  margin: 30px 160px auto;
+  margin-left: auto;
+  margin-right: auto;
   border-width: thick;
   border-style: solid;
   border-radius: 20px;
@@ -19,21 +20,25 @@ table {
 
 td {
   font-family: "Times New Roman", Times, serif;
-  font-size: 26px;
+  font-size: 1.5em;
   color: rgb(255, 255, 255);
   text-shadow: -3px -3px 3px #036da9;
+  padding-left: 10px;
+  padding-bottom: 5px;
 }
 
 .headTable {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 0.04em;
-  font-size: 26px;
+  font-size: 1.7em;
   color: rgb(0 62 146 / 70%);
   text-shadow: -3px -3px 3px #e2e2e2;
 }
+
 input {
   float: right;
-  width: auto;
+  width: 150;
+  height: 30px;
   border-width: medium;
   border-style: solid;
   border-radius: 5px;
